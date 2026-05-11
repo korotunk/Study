@@ -3,9 +3,10 @@
     {
       "format": "expanded",
       "extensionName": ".css",
-      "savePath": "/css" // Ось тут! CSS буде падати в папку css
+      "savePath": "/css"
     }
   ],
   "liveSassCompile.settings.generateMap": false,
-  "liveSassCompile.settings.watchOnLaunch": true // Автоматично вмикати стеження
+  "liveSassCompile.settings.watchOnLaunch": true,
+  "liveSassCompile.settings.includeItems": ["/scss/style.scss"]
 }
