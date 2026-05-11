@@ -1,16 +1,7 @@
 @import "_header";
+@import "_responsive";
+@import "_time-slots";
+@import "_cart";
+@import "_menu";
+@import "_variables";
 
-body {
-  font-size: 20px;
-  div {
-    font-size: 10px;
-  }
-}
-.block {
-  &__item {
-    color: red;
-  }
-
-  &__ {
-  }
-}
